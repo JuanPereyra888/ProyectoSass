@@ -1,0 +1,23 @@
+main{
+    background-color: $bgColorMain;
+    h1{
+        color: $colorPrimario;
+        
+        &:hover{
+            color: black;
+        }
+    }
+    p{
+        padding: 100px;
+        color: $colorSecundario;
+    
+    }
+    .burger-main{
+        img{
+            height: 800px;
+            &:hover{
+                height: 795px;
+            }
+        }
+    }
+}

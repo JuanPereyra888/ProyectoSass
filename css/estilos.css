@@ -1,0 +1,17 @@
+footer {
+  background-color: #bdbdbd;
+  padding: 8px; }
+
+main {
+  background-color: #cdcdcd; }
+  main h1 {
+    color: green; }
+    main h1:hover {
+      color: black; }
+  main p {
+    padding: 100px;
+    color: #201d1d; }
+  main .burger-main img {
+    height: 800px; }
+    main .burger-main img:hover {
+      height: 795px; }
