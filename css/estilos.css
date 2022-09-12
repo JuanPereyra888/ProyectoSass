@@ -7,7 +7,7 @@ main {
   main h1 {
     color: green; }
     main h1:hover {
-      color: black; }
+      color: blue; }
   main p {
     padding: 100px;
     color: #201d1d; }
