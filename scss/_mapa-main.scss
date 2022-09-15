@@ -1,0 +1,38 @@
+$mapa-main:(
+    color:rgb(7, 7, 7),
+    centro:center,
+    tFuente:50px,
+    padding:10px
+);
+$mapa-main-dos:(
+    color:rgb(240, 103, 6),
+    centro:center,
+    tFuente:40px,
+    padding:30px,
+);
+$mapa-main-tres:(
+    color:rgb(0, 0, 0),
+    centro:center,
+    tFuente:40px,
+    padding:5px,
+);
+main{
+    h1{
+    color: map-get($mapa-main , color);
+    align-items: map-get($mapa-main, center);
+    font-size: map-get($mapa-main, tFuente);
+    padding: map-get($mapa-main,padding);
+}
+h2{
+    color: map-get($mapa-main-dos , color);
+    align-items: map-get($mapa-main-dos, center);
+    font-size: map-get($mapa-main-dos, tFuente);
+    padding: map-get($mapa-main-dos,padding);
+}
+p{
+    color: map-get($mapa-main-tres , color);
+    align-items: map-get($mapa-main-tres, center);
+    font-size: map-get($mapa-main-tres, tFuente);
+    padding: map-get($mapa-main-tres,padding);
+}
+}

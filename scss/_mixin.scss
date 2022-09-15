@@ -1,0 +1,8 @@
+@mixin FlexRowCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mixinFooter{
+    @include FlexRowCenter;
+}

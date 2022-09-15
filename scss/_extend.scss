@@ -1,0 +1,21 @@
+.boton{
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(160, 84, 32, 0.822);
+    border: 2px solid rgb(106, 101, 101);
+    border-radius: 20px;
+}
+.boton-comunidad{
+    @extend .boton;
+    background-color: rgb(237, 111, 15);
+    color: rgb(215, 114, 42);
+    padding-bottom: 5px;
+}
+.boton-enviar{
+    @extend .boton;
+    background-color: lightblue;
+    height: 40px;
+    width: 100px;
+}
